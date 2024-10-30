@@ -10,4 +10,4 @@
 -->
 # storyline-generater
 
-This is the source code for paper *StoryExplorer: A Visualization Approach for Storyline Generation of Textual Narratives.*
+This is the source code for paper *StoryExplorer: A Visualization Framework for Storyline Generation of Textual Narratives.*

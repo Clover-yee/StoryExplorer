@@ -12,4 +12,4 @@
 
 This is the source code for paper *StoryExplorer: A Visualization Framework for Storyline Generation of Textual Narratives.*
 
-![fig_dataVis]((https://github.com/Clover-yee/StoryExplorer/blob/v3.0/public/img/teaser.png))
+![fig_dataVis](https://github.com/Clover-yee/StoryExplorer/blob/v3.0/public/img/teaser.png)

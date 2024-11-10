@@ -37,3 +37,39 @@ In the context of the exponentially increasing volume of narrative texts such as
 - [ ] Better document the code
 
 ## Prompt
+Note that your response should only be in JSON format; there is no need to add any statements. I want you to play the role of a data analyst expert who excels at extracting named entities from text. Your reasoning process should be step-by-step, with a clear confidence threshold mechanism. Your workflow should include the following:
+
+1. I will provide you with text content, please read it carefully and analyze the following entity types:
+   - Person Names
+   - Time Expressions 
+   - Location Names
+
+2. For each identified entity, you should:
+   - Extract the entity
+   - Determine its category
+   - Assign a confidence score (0-100)
+   - Compare against the threshold value [threshold]
+
+3. There are three confidence levels for entity extraction:
+   - High confidence (score > threshold): Based on explicit textual evidence
+   - Medium confidence (score = threshold): Based on contextual inference
+   - Low confidence (score < threshold): Based on model's prior knowledge
+
+4. The output should be in the following JSON format:
+
+{
+  "entities": [
+    {
+      "text": "",
+      "type": "PERSON/TIME/LOCATION",
+      "confidence_score": 0-100,
+      "confidence_level": "high/medium/low"
+    }
+  ],
+  "metadata": {
+    "threshold": [threshold],
+    "total_entities": 0
+  }
+}
+
+Here is the text I need you to process: "..."

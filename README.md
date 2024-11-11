@@ -14,7 +14,7 @@ This is the source code for paper *StoryExplorer: A Visualization Framework for 
 
 ![fig_dataVis](https://github.com/Clover-yee/StoryExplorer/blob/v3.0/public/img/teaser.png)
 
-> [**StoryExplorer: A Visualization Framework for Storyline Generation of Textual Narratives**]
+> [**StoryExplorer: A Visualization Framework for Storyline Generation of Textual Narratives**](https://arxiv.org/abs/2411.05435)
 > 
 > Li Ye, Lei Wang, Shaolun Ruan, Yuwei Meng, Yigang Wang, Wei Chen and Zhiguang Zhou
 >

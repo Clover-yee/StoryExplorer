@@ -74,3 +74,16 @@ Note that your response should only be in JSON format; there is no need to add a
 }
 
 Here is the text I need you to process: "..."
+
+## Citation
+```
+@misc{ye2024storyexplorervisualizationframeworkstoryline,
+      title={StoryExplorer: A Visualization Framework for Storyline Generation of Textual Narratives}, 
+      author={Li Ye and Lei Wang and Shaolun Ruan and Yuwei Meng and Yigang Wang and Wei Chen and Zhiguang Zhou},
+      year={2024},
+      eprint={2411.05435},
+      archivePrefix={arXiv},
+      primaryClass={cs.HC},
+      url={https://arxiv.org/abs/2411.05435}, 
+}
+```

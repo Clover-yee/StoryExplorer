@@ -18,7 +18,7 @@ This is the source code for paper *StoryExplorer: A Visualization Framework for 
 > 
 > Li Ye, Lei Wang, Shaolun Ruan, Yuwei Meng, Yigang Wang, Wei Chen and Zhiguang Zhou
 >
-> [[Paper](https://arxiv.org/abs/2411.05435)
+> [[Paper](https://arxiv.org/abs/2411.05435)]
 
 
 ## Abstract

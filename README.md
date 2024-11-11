@@ -8,7 +8,7 @@
  * 
  * Copyright (c) 2023 by ${git_name_email}, All Rights Reserved. 
 -->
-# storyline-generater
+# StoryExplorer
 
 This is the source code for paper *StoryExplorer: A Visualization Framework for Storyline Generation of Textual Narratives.*
 
@@ -17,11 +17,12 @@ This is the source code for paper *StoryExplorer: A Visualization Framework for 
 > [**StoryExplorer: A Visualization Framework for Storyline Generation of Textual Narratives**]
 > 
 > Li Ye, Lei Wang, Shaolun Ruan, Yuwei Meng, Yigang Wang, Wei Chen and Zhiguang Zhou
-
+>
+> [[Paper](https://arxiv.org/abs/2411.05435)
 
 
 ## Abstract
-In the context of the exponentially increasing volume of narrative texts such as novels and news, readers struggle to extract and consistently remember storyline from these intricate texts due to the constraints of human working memory and attention span. To tackle this issue, we propose a visualization approach StoryExplorer, which facilitates the process of knowledge externalization of narrative texts and further makes the form of mental models more coherent. Through the formative study and close collaboration with 2 domain experts, we identified key challenges for the extraction of the storyline. Guided by the distilled requirements, we then propose a set of workflow (i.e., insight finding-scripting-storytelling) to enable users to interactively generate fragments of narrative structures. We then propose a visualization system StoryExplorer which combines stroke annotation and GPT-based visual hints to quickly extract story fragments and interactively construct storyline. To evaluate the effectiveness and usefulness of StoryExplorer, we conducted 2 case studies and in-depth user interviews with 12 target users. The result shows that users can better extract the storyline by using StoryExplorer along with the proposed workflow.
+In the context of the exponentially increasing volume of narrative texts such as novels and news, readers struggle to extract and consistently remember storyline from these intricate texts due to the constraints of human working memory and attention span. To tackle this issue, we propose a visualization approach StoryExplorer, which facilitates the process of knowledge externalization of narrative texts and further makes the form of mental models more coherent. Through the formative study and close collaboration with 2 domain experts, we identified key challenges for the extraction of the storyline. Guided by the distilled requirements, we then propose a set of workflow (i.e., insight finding-scripting-storytelling) to enable users to interactively generate fragments of narrative structures. We then propose a visualization system StoryExplorer which combines stroke annotation and GPT-based visual hints to quickly extract story fragments and interactively construct storyline. To evaluate the effectiveness and usefulness of StoryExplorer, we conducted 2 case studies and in-depth user interviews with 12 target users. The result shows that users can better extract the storyline by using StoryExplorer along with the proposed workflow.
 
 ## Install
 1. install `npm install`
@@ -53,7 +54,7 @@ Note that your response should only be in JSON format; there is no need to add a
 3. There are three confidence levels for entity extraction:
    - High confidence (score > threshold): Based on explicit textual evidence
    - Medium confidence (score = threshold): Based on contextual inference
-   - Low confidence (score < threshold): Based on model's prior knowledge
+   - Low confidence (score < threshold): Based on the model's prior knowledge
 
 4. The output should be in the following JSON format:
 

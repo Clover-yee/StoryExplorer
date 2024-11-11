@@ -62,20 +62,21 @@ Note that your response should only be in JSON format; there is no need to add a
 
 4. The output should be in the following JSON format:
 
-{
-  "entities": [
-    {
-      "text": "",
-      "type": "PERSON/TIME/LOCATION",
-      "confidence_score": 0-100,
-      "confidence_level": "high/medium/low"
-    }
-  ],
-  "metadata": {
-    "threshold": [threshold],
-    "total_entities": 0
-  }
-}
+  ```json
+   {
+     "entities": [
+       {
+         "text": "",
+         "type": "PERSON/TIME/LOCATION",
+         "confidence_score": 0-100,
+         "confidence_level": "high/medium/low"
+       }
+     ],
+     "metadata": {
+       "threshold": [threshold],
+       "total_entities": 0
+     }
+   }
 
 Here is the text I need you to process: "..."
 

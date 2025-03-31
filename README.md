@@ -20,7 +20,7 @@ This is the source code for paper *StoryExplorer: A Visualization Framework for 
 
 > [**StoryExplorer: A Visualization Framework for Storyline Generation of Textual Narratives**](https://arxiv.org/abs/2411.05435)
 > 
-> Li Ye, Lei Wang, Shaolun Ruan, Yuwei Meng, Yigang Wang, Wei Chen and Zhiguang Zhou
+> Li Ye, Lei Wang, Shaolun Ruan, Heyu WANG, Yuwei Meng, Yigang Wang, Wei Chen and Zhiguang Zhou
 >
 > [[Paper](https://arxiv.org/abs/2411.05435)]
 
